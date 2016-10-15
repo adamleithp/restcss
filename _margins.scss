@@ -6,6 +6,14 @@ $margin-step-start: 1;
 $margin-step-limit: 6;
 $margin-unit: 6;
 
+
+.mx-auto  {margin-left: auto; margin-right: auto}
+.mxnp5    {margin-left: -.5em; margin-right: -.5em}
+.mxn1     {margin-left: -1em; margin-right: -1em}
+.mxn2     {margin-left: -2em; margin-right: -2em}
+.mxn3     {margin-left: -3em; margin-right: -3em}
+
+
 // Margins
 .m0       {margin: 0}
 .mp5      {margin: .5em}
@@ -33,6 +41,7 @@ $margin-unit: 6;
 @for $i from $margin-step-start through $margin-step-limit {
   .mb#{$i} {margin: #{$i}em}
 }
+
 
 // Margin-lefts
 .ml0       {margin: 0}

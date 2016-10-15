@@ -1,0 +1,145 @@
+$breakpoint-sm: '(min-width: 40em)' !default;
+$breakpoint-md: '(min-width: 52em)' !default;
+$breakpoint-lg: '(min-width: 64em)' !default;
+
+$margin-step-start: 1;
+$margin-step-limit: 6;
+$margin-unit: 6;
+
+
+@media #{$breakpoint-sm} {
+  .sm-mx-auto  {margin-left: auto; margin-right: auto}
+
+  .sm-m0       {margin: 0}
+  .sm-mp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .sm-m#{$i} {margin: #{$i}em}
+  }
+
+  // Margins
+  .sm-m0       {margin: 0}
+  .sm-mp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .sm-m#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-tops
+  .sm-mt0       {margin: 0}
+  .sm-mtp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .sm-mt#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-rights
+  .sm-mr0       {margin: 0}
+  .sm-mrp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .sm-mr#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-bottoms
+  .sm-mb0       {margin: 0}
+  .sm-mbp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .sm-mb#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-lefts
+  .sm-ml0       {margin: 0}
+  .sm-mlp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .sm-ml#{$i} {margin: #{$i}em}
+  }
+}
+
+
+@media #{$breakpoint-md} {
+  .md-mx-auto  {margin-left: auto; margin-right: auto}
+
+  .md-m0       {margin: 0}
+  .md-mp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .md-m#{$i} {margin: #{$i}em}
+  }
+
+  // Margins
+  .md-m0       {margin: 0}
+  .md-mp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .md-m#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-tops
+  .md-mt0       {margin: 0}
+  .md-mtp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .md-mt#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-rights
+  .md-mr0       {margin: 0}
+  .md-mrp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .md-mr#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-bottoms
+  .md-mb0       {margin: 0}
+  .md-mbp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .md-mb#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-lefts
+  .md-ml0       {margin: 0}
+  .md-mlp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .md-ml#{$i} {margin: #{$i}em}
+  }
+}
+
+
+@media #{$breakpoint-lg} {
+  .lg-mx-auto  {margin-left: auto; margin-right: auto}
+
+  .lg-m0       {margin: 0}
+  .lg-mp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .lg-m#{$i} {margin: #{$i}em}
+  }
+
+  // Margins
+  .lg-m0       {margin: 0}
+  .lg-mp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .lg-m#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-tops
+  .lg-mt0       {margin: 0}
+  .lg-mtp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .lg-mt#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-rights
+  .lg-mr0       {margin: 0}
+  .lg-mrp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .lg-mr#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-bottoms
+  .lg-mb0       {margin: 0}
+  .lg-mbp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .lg-mb#{$i} {margin: #{$i}em}
+  }
+
+  // Margin-lefts
+  .lg-ml0       {margin: 0}
+  .lg-mlp5      {margin: .5em}
+  @for $i from $margin-step-start through $margin-step-limit {
+    .lg-ml#{$i} {margin: #{$i}em}
+  }
+}

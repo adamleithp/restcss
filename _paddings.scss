@@ -6,6 +6,7 @@ $padding-step-start: 1;
 $padding-step-limit: 6;
 $padding-unit: 6;
 
+
 // paddings
 .p0       {padding: 0}
 .pp5      {padding: .5em}
@@ -39,4 +40,18 @@ $padding-unit: 6;
 .plp5      {padding: .5em}
 @for $i from $padding-step-start through $padding-step-limit {
   .pl#{$i} {padding: #{$i}em}
+}
+
+// padding axis X
+.px0       {padding: 0}
+.pxp5      {padding: .5em}
+@for $i from $padding-step-start through $padding-step-limit {
+  .px#{$i} {padding-left: #{$i}em; padding-left: #{$i}em}
+}
+
+// padding axis Y
+.py0       {padding: 0}
+.pyp5      {padding: .5em}
+@for $i from $padding-step-start through $padding-step-limit {
+  .py#{$i} {padding-left: #{$i}em; padding-left: #{$i}em}
 }
