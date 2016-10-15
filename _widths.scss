@@ -3,17 +3,17 @@ $breakpoint-md: '(min-width: 52em)' !default;
 $breakpoint-lg: '(min-width: 64em)' !default;
 
 
-.mxw-5          {max-width: 5em}
-.mxw-10         {max-width: 10em}
-.mxw-20         {max-width: 20em}
-.mxw-30         {max-width: 30em}
-.mxw-40         {max-width: 40em}
-.mxw-50         {max-width: 50em}
-.mxw-60         {max-width: 60em}
-.mxw-70         {max-width: 70em}
-.mxw-80         {max-width: 80em}
-.mxw-90         {max-width: 90em}
-.mxw-100        {max-width: 100em}
+.mxw-5              {max-width: 5em}
+.mxw-10             {max-width: 10em}
+.mxw-20             {max-width: 20em}
+.mxw-30             {max-width: 30em}
+.mxw-40             {max-width: 40em}
+.mxw-50             {max-width: 50em}
+.mxw-60             {max-width: 60em}
+.mxw-70             {max-width: 70em}
+.mxw-80             {max-width: 80em}
+.mxw-90             {max-width: 90em}
+.mxw-100            {max-width: 100em}
 
 @media #{$breakpoint-sm} {
   .sm-mxw-none       {max-width: none}
