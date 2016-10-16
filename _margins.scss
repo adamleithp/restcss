@@ -7,11 +7,11 @@ $margin-step-limit: 6;
 $margin-unit: 6;
 
 
-.mx-auto  {margin-left: auto; margin-right: auto}
-.mxnp5    {margin-left: -.5em; margin-right: -.5em}
-.mxn1     {margin-left: -1em; margin-right: -1em}
-.mxn2     {margin-left: -2em; margin-right: -2em}
-.mxn3     {margin-left: -3em; margin-right: -3em}
+.mx-auto  {margin-right: auto; margin-left: auto}
+.mxnp5    {margin-right: -.5em; margin-left: -.5em}
+.mxn1     {margin-right: -1em; margin-left: -1em}
+.mxn2     {margin-right: -2em; margin-left: -2em}
+.mxn3     {margin-right: -3em; margin-left: -3em}
 
 
 // Margins

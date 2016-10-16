@@ -48,24 +48,24 @@ $padding-unit: 6;
   .sm-px0       {padding: 0}
   .sm-pxp5      {padding: .5em}
   @for $i from $padding-step-start through $padding-step-axis-limit {
-    .px#{$i} {padding-left: #{$i}em; padding-left: #{$i}em}
+    .px#{$i}    {padding-right: #{$i}em; padding-left: #{$i}em}
   }
 
   // padding axis Y
   .sm-py0       {padding: 0}
   .sm-pyp5      {padding: .5em}
   @for $i from $padding-step-start through $padding-step-axis-limit {
-    .py#{$i} {padding-left: #{$i}em; padding-left: #{$i}em}
+    .py#{$i}    {padding-right: #{$i}em; padding-left: #{$i}em}
   }
 }
 
 
 @media #{$breakpoint-md} {
   // paddings
-  .md-p0       {padding: 0}
-  .md-pp5      {padding: .5em}
+  .md-p0        {padding: 0}
+  .md-pp5       {padding: .5em}
   @for $i from $padding-step-start through $padding-step-limit {
-    .md-p#{$i} {padding: #{$i}em}
+    .md-p#{$i}  {padding: #{$i}em}
   }
 
   // padding-tops
@@ -100,24 +100,24 @@ $padding-unit: 6;
   .md-px0       {padding: 0}
   .md-pxp5      {padding: .5em}
   @for $i from $padding-step-start through $padding-step-axis-limit {
-    .md-px#{$i} {padding-left: #{$i}em; padding-left: #{$i}em}
+    .md-px#{$i} {padding-right: #{$i}em; padding-left: #{$i}em}
   }
 
   // padding axis Y
   .md-py0       {padding: 0}
   .md-pyp5      {padding: .5em}
   @for $i from $padding-step-start through $padding-step-axis-limit {
-    .md-py#{$i} {padding-left: #{$i}em; padding-left: #{$i}em}
+    .md-py#{$i} {padding-right: #{$i}em; padding-left: #{$i}em}
   }
 }
 
 
 @media #{$breakpoint-lg} {
   // paddings
-  .lg-p0       {padding: 0}
-  .lg-pp5      {padding: .5em}
+  .lg-p0        {padding: 0}
+  .lg-pp5       {padding: .5em}
   @for $i from $padding-step-start through $padding-step-limit {
-    .lg-p#{$i} {padding: #{$i}em}
+    .lg-p#{$i}  {padding: #{$i}em}
   }
 
   // padding-tops
@@ -152,13 +152,13 @@ $padding-unit: 6;
   .lg-px0       {padding: 0}
   .lg-pxp5      {padding: .5em}
   @for $i from $padding-step-start through $padding-step-axis-limit{
-    .lg-px#{$i} {padding-left: #{$i}em; padding-left: #{$i}em}
+    .lg-px#{$i} {padding-right: #{$i}em; padding-left: #{$i}em}
   }
 
   // padding axis Y
   .lg-py0       {padding: 0}
   .lg-pyp5      {padding: .5em}
   @for $i from $padding-step-start through $padding-step-axis-limit {
-    .lg-py#{$i} {padding-left: #{$i}em; padding-left: #{$i}em}
+    .lg-py#{$i} {padding-right: #{$i}em; padding-left: #{$i}em}
   }
 }

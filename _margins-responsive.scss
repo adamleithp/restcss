@@ -9,19 +9,19 @@ $margin-unit: 6;
 
 
 @media #{$breakpoint-sm} {
-  .sm-mx-auto  {margin-left: auto; margin-right: auto}
+  .sm-mx-auto   {margin-right: auto; margin-left: auto}
 
-  .sm-m0       {margin: 0}
-  .sm-mp5      {margin: .5em}
+  .sm-m0        {margin: 0}
+  .sm-mp5       {margin: .5em}
   @for $i from $margin-step-start through $margin-step-limit {
-    .sm-m#{$i} {margin: #{$i}em}
+    .sm-m#{$i}  {margin: #{$i}em}
   }
 
   // Margins
-  .sm-m0       {margin: 0}
-  .sm-mp5      {margin: .5em}
+  .sm-m0        {margin: 0}
+  .sm-mp5       {margin: .5em}
   @for $i from $margin-step-start through $margin-step-limit {
-    .sm-m#{$i} {margin: #{$i}em}
+    .sm-m#{$i}  {margin: #{$i}em}
   }
 
   // Margin-tops
@@ -69,19 +69,19 @@ $margin-unit: 6;
 
 
 @media #{$breakpoint-md} {
-  .md-mx-auto  {margin-left: auto; margin-right: auto}
+  .md-mx-auto   {margin-right: auto; margin-left: auto}
 
-  .md-m0       {margin: 0}
-  .md-mp5      {margin: .5em}
+  .md-m0        {margin: 0}
+  .md-mp5       {margin: .5em}
   @for $i from $margin-step-start through $margin-step-limit {
-    .md-m#{$i} {margin: #{$i}em}
+    .md-m#{$i}  {margin: #{$i}em}
   }
 
   // Margins
-  .md-m0       {margin: 0}
-  .md-mp5      {margin: .5em}
+  .md-m0        {margin: 0}
+  .md-mp5       {margin: .5em}
   @for $i from $margin-step-start through $margin-step-limit {
-    .md-m#{$i} {margin: #{$i}em}
+    .md-m#{$i}  {margin: #{$i}em}
   }
 
   // Margin-tops
@@ -129,19 +129,19 @@ $margin-unit: 6;
 
 
 @media #{$breakpoint-lg} {
-  .lg-mx-auto  {margin-left: auto; margin-right: auto}
+  .lg-mx-auto   {margin-right: auto; margin-left: auto}
 
-  .lg-m0       {margin: 0}
-  .lg-mp5      {margin: .5em}
+  .lg-m0        {margin: 0}
+  .lg-mp5       {margin: .5em}
   @for $i from $margin-step-start through $margin-step-limit {
-    .lg-m#{$i} {margin: #{$i}em}
+    .lg-m#{$i}  {margin: #{$i}em}
   }
 
   // Margins
-  .lg-m0       {margin: 0}
-  .lg-mp5      {margin: .5em}
+  .lg-m0        {margin: 0}
+  .lg-mp5       {margin: .5em}
   @for $i from $margin-step-start through $margin-step-limit {
-    .lg-m#{$i} {margin: #{$i}em}
+    .lg-m#{$i}  {margin: #{$i}em}
   }
 
   // Margin-tops
